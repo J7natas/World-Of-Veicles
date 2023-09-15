@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner-bmw {
+    background-image: url('../images/Banner-BMW.svg');
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 90px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Keania One";
+    font-weight: 400;
+}
+
+header .Tipo {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #Categoria {
+    display: flex;
+    align-items: center;
+}
+
+header #Categoria img {
+    height: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+header #Categoria h3,
+header #Contato h3 {
+    font-family: "Judson";
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.Flex {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: "Judson";
+
+}
+
+.Flex #Sobre h3 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#Sobre {
+    z-index: 333;
+}
+
+#Sobre #texto {
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+#Sobre #Valor {
+    color: white;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#Sobre #Valor span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Sobre button {
+    margin-top: 30px;
+    background-color: #EAEAEA;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#Sobre button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#imagem img {
+    width: 725px;
+    margin-left: -180px;
+}
+
+#Bolinhas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+#Bolinhas .Bolinha1,
+#Bolinhas .Bolinha2,
+#Bolinhas .Bolinha3 {
+    width: 15px;
+    height: 15px;
+    background-color: #9e9c9c;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+#Bolinhas #active {
+    background-color: rgb(255, 255, 255);
+}
+
+#Mover-Slide {
+    position: absolute;
+    z-index: 222;
+    margin-top: -45px;
+    right: 0;
+    margin-right: 50px;
+}
+
+#Mover-Slide img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
