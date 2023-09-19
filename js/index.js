@@ -6,27 +6,27 @@ let Bolinha2 = document.querySelector("#Bolinha2");
 let Bolinha3 = document.querySelector("#Bolinha3");
 
 function ProximaPagina() {
-    window.scroll({left: 1365})
+    window.scroll({left: 1365, behavior: 'smooth'})
 }
 
 function PaginaAnterior() {
-    window.scroll({left: -1400})
+    window.scroll({left: -1400, behavior: 'smooth'})
 }
 
 function PaginaAnteriordaMercedes() {
-    window.scroll({left: -1400})
+    window.scroll({left: -1400, behavior: 'smooth'})
 }
 
 function ProximaPaginadaMercedes() {
-    window.scroll({left: 2750})
+    window.scroll({left: 2750, behavior: 'smooth'})
 }
 
 function PaginaAnteriordaAudi() {
-    window.scroll({left: 1365})
+    window.scroll({left: 1365, behavior: 'smooth'})
 }
 
 function ProximaPaginadaAudi() {
-    window.scroll({left: 2750})
+    window.scroll({left: 2750, behavior: 'smooth'})
 }
 
 function imgFrente() {
