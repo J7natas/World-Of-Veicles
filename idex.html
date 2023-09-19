@@ -17,8 +17,14 @@
             <h2>World <br /> Of Veicles</h2>
             <div class="Tipo">
                 <div id="Categoria">
-                    <h3>Categoria</h3>
-                    <img src="./icons/setaPara-Baixo.svg" />
+                    <div class="flexCategori">
+                        <h3>Categoria</h3>
+                        <img onclick="mostrarFilter()" id="imgSeta" src="./icons/setaPara-Baixo.svg" />
+                    </div>
+                    <div class="filter">
+                        <a href="#home">Carros</a><br />
+                        <a href="./moto.html">Motos</a>
+                    </div>
                 </div>
                 <div id="Contato">
                     <h3>Contato</h3>
@@ -31,23 +37,113 @@
                 <p id="texto">No novo BMW X6, você desfruta da máxima dinâmica ao dirigir esportivamente
                 , bem como do seu design esportivo, com luxuosos equipamentos</p>
                 <p id="Valor">A partir de <span>R$ 812.950</span> à vista</p>
-                <button>COMPRAR</button>
+                <button id="ButomBmw">COMPRAR</button>
             </div>
             <div id="imagem">
                 <img src="./images/bmw.svg" />
             </div>
         </div>
-        <div id="Bolinhas">
-            <div class="Bolinha1" id="active"></div>
-            <div class="Bolinha2"></div>
-            <div class="Bolinha3"></div>
-        </div>
+    </div>
+    <div id="Bolinhas">
+        <div onclick="imgFrente()" id="Bolinha1" class="active"></div>
+        <div onclick="imgLado()" id="Bolinha2"></div>
+        <div onclick="imgTras()" id="Bolinha3"></div>
     </div>
     <div id="Mover-Slide">
-        <img src="./icons/seta-esquerda.svg" />
-        <img src="./icons/seta-direita.svg" />
+        <img id="setaEsquerda" onclick="PaginaAnterior()" src="./icons/seta-esquerda.svg" />
+        <img id="setaDireita" onclick="ProximaPagina()" src="./icons/seta-direita.svg" />
     </div>
 </section>
+
+<section>
+    <div id="banner-mercedes">
+        <header>
+            <h2>World <br /> Of Veicles</h2>
+            <div class="Tipo">
+                <div id="Categoria">
+                    <div class="flexCategori">
+                        <h3>Categoria</h3>
+                        <img onclick="mostrarFilterMercedes()" id="imgSetaMercedes" src="./icons/setaPara-Baixo.svg" />
+                    </div>
+                    <div class="filterMercedes">
+                        <a href="#home">Carros</a><br/>
+                        <a href="./moto.html">Motos</a>
+                    </div>
+                </div>
+                <div id="Contato">
+                    <h3>Contato</h3>
+                </div>
+            </div>
+        </header>
+        <div class="Flex">
+            <div id="Sobre">
+                <h3>MERCEDES GLA 200</h3>
+                <p id="texto">veículo 2015 super conservado, design moderno, alto, robusto,
+                imponente, presença, amplo espaço interno, EXTREMAMENTE confortável,
+                EXCELENTE porta malas, carro PERFEITO para você e sua família</p>
+                <p id="Valor">A partir de <span>R$ 130.950</span> à vista</p>
+                <button id="ButonMercedes">COMPRAR</button>
+            </div>
+            <div id="imagem">
+                <img id="imagem-mercedes" src="./images/mercedes.svg" />
+            </div>
+        </div>
+    </div>
+    <div id="Bolinhas">
+        <div onclick="MercedesFrente()" id="Mercedes-Bolinha1" class="active"></div>
+        <div onclick="MercedesLado()" id="Mercedes-Bolinha2"></div>
+        <div onclick="MercedesTras()" id="Mercedes-Bolinha3"></div>
+    </div>
+    <div id="Mover-Slide">
+        <img id="setaEsquerda" onclick="PaginaAnteriordaMercedes()" src="./icons/seta-esquerda.svg" />
+        <img id="setaDireita" onclick="ProximaPaginadaMercedes()" src="./icons/seta-direita.svg" />
+    </div>
+</section>
+
+<section>
+    <div id="banner-audi">
+        <header>
+            <h2>World <br /> Of Veicles</h2>
+            <div class="Tipo">
+                <div id="Categoria">
+                    <div class="flexCategori">
+                        <h3>Categoria</h3>
+                        <img onclick="mostrarFilterAudi()" id="imgSetaAudi" src="./icons/setaPara-Baixo.svg" />
+                    </div>
+                    <div class="filterAudi">
+                        <a href="#home">Carros</a><br/>
+                        <a href="./moto.html">Motos</a>
+                    </div>
+                </div>
+                <div id="Contato">
+                    <h3>Contato</h3>
+                </div>
+            </div>
+        </header>
+        <div class="Flex">
+            <div id="Sobre">
+                <h3>Audi A3 Sedan</h3>
+                <p id="texto">Eficiente, dinâmico, confortável, automático ou individual?
+                Com o sistema opcional Audi drive select do Audi A3 Sedan,</p>
+                <p id="Valor">A partir de <span>R$ 288.00</span> à vista</p>
+                <button id="ButonAudi">COMPRAR</button>
+            </div>
+            <div id="imagem">
+                <img id="imagem-audi" src="./images/Audi.svg" />
+            </div>
+        </div>
+    </div>
+    <div id="Bolinhas">
+        <div onclick="AudiFrente()" id="Audi-Bolinha1" class="active"></div>
+        <div onclick="AudiLado()" id="Audi-Bolinha2"></div>
+        <div onclick="AudiTras()" id="Audi-Bolinha3"></div>
+    </div>
+    <div id="Mover-Slide">
+        <img id="setaEsquerda" onclick="PaginaAnteriordaAudi()" src="./icons/seta-esquerda.svg" />
+        <img id="setaDireita" onclick="ProximaPaginadaAudi()" src="./icons/seta-direita.svg" />
+    </div>
+</section>
+
     <script src="./js/index.js"></script>
 </body>
 </html>

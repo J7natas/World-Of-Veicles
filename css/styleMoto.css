@@ -10,8 +10,8 @@ body {
     overflow: hidden;
 }
 
-#banner-bmw {
-    background-image: url('../images/Banner-BMW.svg');
+#banner-kawasaki {
+    background-image: url('../images/Motos/banner-kawasaki.svg');
     height: 100vh;
     width: 100vw;
     padding-top: 20px;
@@ -44,9 +44,13 @@ header .Tipo {
     align-items: center;
 }
 
+#imagem img {
+    height:450px;
+}
+
 .filter,
-.filterMercedes,
-.filterAudi {
+.filterDucati,
+.filterAdiventure {
     position: absolute;
     background-color: rgb(255, 255, 255);
     width: 115px;
@@ -60,8 +64,8 @@ header .Tipo {
 
 
 .filter a,
-.filterMercedes a,
-.filterAudi a {
+.filterDucati a,
+.filterAdiventure a {
     margin-top: 2px;
     font-size: 20px;
     font-family: "Judson";
@@ -122,9 +126,9 @@ header #Contato h3 {
     font-weight: bold;
 }
 
-#ButomBmw {
+#ButomKawasaki {
     margin-top: 30px;
-    background-color: #EAEAEA;
+    background-color: #4bbc2ba3;
     border: none;
     font-size: 16px;
     font-weight: bold;
@@ -135,8 +139,8 @@ header #Contato h3 {
     transition: 0.5s;
 }
 
-#ButomBmw:hover {
-    background-color: black;
+#ButomKawasaki:hover {
+    background-color: rgb(2, 39, 8);
     color: white;
     transition: 0.5s;
 }
@@ -156,8 +160,7 @@ header #Contato h3 {
 }
 
 #Bolinha1,
-#Bolinha2,
-#Bolinha3 {
+#Bolinha2 {
     width: 15px;
     height: 15px;
     background-color: #9e9c9c;
@@ -185,15 +188,19 @@ header #Contato h3 {
     cursor: pointer;
 }
 
-#banner-mercedes {
-    background-image: url("../images/banner-mercedes.svg");
+#imagem #imagem-ducati {
+    height: 470px;
+    margin-top: -40px;
+}
+
+#banner-ducati {
+    background-image: url("../images/Motos/bannerDucati.svg");
     height: 100vh;
     width: 100vw;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 90px;
 }
-
 #ButonMercedes {
     background-color: #FF7676;
     color: white;
@@ -212,9 +219,8 @@ header #Contato h3 {
     background-color: rgb(74, 1, 1);
 }
 
-#Mercedes-Bolinha1,
-#Mercedes-Bolinha2,
-#Mercedes-Bolinha3 {
+#ducati-Bolinha1,
+#ducati-Bolinha2 {
     width: 15px;
     height: 15px;
     background-color: #9e9c9c;
@@ -222,7 +228,6 @@ header #Contato h3 {
     margin-left: 20px;
     cursor: pointer;
     z-index: 333;
-
 }
 
 #Mover-mercedes {
@@ -232,8 +237,8 @@ header #Contato h3 {
     margin-right: 50px;
 }
 
-#banner-audi {
-    background-image: url("../images/BannerAudi.svg");
+#banner-adventure {
+    background-image: url("../images/Motos/bannerAdienture.svg");
     height: 100vh;
     width: 100vw;
     padding-top: 20px;
@@ -241,10 +246,12 @@ header #Contato h3 {
     padding-right: 90px;
 }
 
+#imagem #imagem-adventure {
+    margin-top: -40px;
+}
 
-#Audi-Bolinha1,
-#Audi-Bolinha2,
-#Audi-Bolinha3 {
+#Adiventure-Bolinha1,
+#Adiventure-Bolinha2 {
     width: 15px;
     height: 15px;
     background-color: #9e9c9c;
@@ -252,11 +259,10 @@ header #Contato h3 {
     margin-left: 20px;
     cursor: pointer;
     z-index: 333;
-
 }
 
-#ButonAudi {
-    background-color: #7b76ff;
+#ButonAdiventure {
+    background-color: #007195;
     color: white;
     margin-top: 30px;
     border: none;
@@ -269,6 +275,6 @@ header #Contato h3 {
     transition: 0.5s;
 }
 
-#ButonAudi:hover {
-    background-color: blue;
+#ButonAdiventure:hover {
+    background-color: rgb(2, 2, 38);
 }

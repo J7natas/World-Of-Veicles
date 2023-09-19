@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styleMoto.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Keania+One&display=swap" rel="stylesheet">
+    <title>World of veicles</title>
+</head>
+<body>
+    <section id="moto">
+        <div id="banner-kawasaki">
+            <header>
+                <h2>World <br /> Of Veicles</h2>
+                <div class="Tipo">
+                    <div id="Categoria">
+                        <div class="flexCategori">
+                            <h3>Categoria</h3>
+                            <img onclick="mostrarFilter()" id="imgSeta" src="./icons/setaPara-Baixo.svg" />
+                        </div>
+                        <div class="filter">
+                            <a href="./idex.html">Carros</a><br />
+                            <a href="">Motos</a>
+                        </div>
+                    </div>
+                    <div id="Contato">
+                        <h3>Contato</h3>
+                    </div>
+                </div>
+            </header>
+            <div class="Flex">
+                <div id="Sobre">
+                    <h3>Kawasaki Ninja</h3>
+                    <p id="texto">Uma autêntica sportbike como nenhuma outra motocicleta.
+                    Tudo graças a potência do novo motor bicilindrico de 399cc e um chassi estável e leve</p>
+                    <p id="Valor">A partir de <span>R$ 19.400</span> à vista</p>
+                    <button id="ButomKawasaki">COMPRAR</button>
+                </div>
+                <div id="imagem">
+                    <img src="./images/Motos/kawasaki.svg" />
+                </div>
+            </div>
+        </div>
+        <div id="Bolinhas">
+            <div onclick="imgFrente()" id="Bolinha1" class="active"></div>
+            <div onclick="imgLado()" id="Bolinha2"></div>
+        </div>
+        <div id="Mover-Slide">
+            <img id="setaEsquerda" onclick="PaginaAnterior()" src="./icons/seta-esquerda.svg" />
+            <img id="setaDireita" onclick="ProximaPagina()" src="./icons/seta-direita.svg" />
+        </div>
+    </section>
+    
+    <section>
+        <div id="banner-ducati">
+            <header>
+                <h2>World <br /> Of Veicles</h2>
+                <div class="Tipo">
+                    <div id="Categoria">
+                        <div class="flexCategori">
+                            <h3>Categoria</h3>
+                            <img onclick="mostrarFilterDucati()" id="imgSetaDucati" src="./icons/setaPara-Baixo.svg" />
+                        </div>
+                        <div class="filterDucati">
+                            <a href="./idex.html">Carros</a><br/>
+                            <a href="./moto.html">Motos</a>
+                        </div>
+                    </div>
+                    <div id="Contato">
+                        <h3>Contato</h3>
+                    </div>
+                </div>
+            </header>
+            <div class="Flex">
+                <div id="Sobre">
+                    <h3>Ducati Monster</h3>
+                    <p id="texto">A nova Monster representa toda a essência da Ducati
+                    na forma mais leve, compacta e essencial possível. Você já pode adivinhar pelo nome:
+                    Monster, nada mais.</p>
+                    <p id="Valor">A partir de <span>R$ 27.00</span> à vista</p>
+                    <button id="ButonMercedes">COMPRAR</button>
+                </div>
+                <div id="imagem">
+                    <img id="imagem-ducati" src="./images/Motos/ducati.svg" />
+                </div>
+            </div>
+        </div>
+        <div id="Bolinhas">
+            <div onclick="imgFrenteDucati()" id="ducati-Bolinha1" class="active"></div>
+            <div onclick="imgLadoDucati()" id="ducati-Bolinha2"></div>
+        </div>
+        <div id="Mover-Slide">
+            <img id="setaEsquerda" onclick="PaginaAnteriordaMercedes()" src="./icons/seta-esquerda.svg" />
+            <img id="setaDireita" onclick="ProximaPaginadaMercedes()" src="./icons/seta-direita.svg" />
+        </div>
+    </section>
+    
+    <section>
+        <div id="banner-adventure">
+            <header>
+                <h2>World <br /> Of Veicles</h2>
+                <div class="Tipo">
+                    <div id="Categoria">
+                        <div class="flexCategori">
+                            <h3>Categoria</h3>
+                            <img onclick="mostrarFilterAdiventure()" id="imgSetaAdiventure" src="./icons/setaPara-Baixo.svg" />
+                        </div>
+                        <div class="filterAdiventure">
+                            <a href="#home">Carros</a><br/>
+                            <a href="./moto.html">Motos</a>
+                        </div>
+                    </div>
+                    <div id="Contato">
+                        <h3>Contato</h3>
+                    </div>
+                </div>
+            </header>
+            <div class="Flex">
+                <div id="Sobre">
+                    <h3>R 1250 GS Adventure</h3>
+                    <p id="texto">Crida para encarar desafios, a R 1250 GS Adventure supera
+                    qualquer limite e transforma obstáculos em possibilidades.</p>
+                    <p id="Valor">A partir de <span>R$ 127.00</span> à vista</p>
+                    <button id="ButonAdiventure">COMPRAR</button>
+                </div>
+                <div id="imagem">
+                    <img id="imagem-adventure" src="./images/Motos/Adiventure.svg" />
+                </div>
+            </div>
+        </div>
+        <div id="Bolinhas">
+            <div onclick="imgFrenteAdiventure()" id="Adiventure-Bolinha1" class="active"></div>
+            <div onclick="imgLadoAdiventure()" id="Adiventure-Bolinha2"></div>
+        </div>
+        <div id="Mover-Slide">
+            <img id="setaEsquerda" onclick="PaginaAnteriordaAudi()" src="./icons/seta-esquerda.svg" />
+            <img id="setaDireita" onclick="ProximaPaginadaAudi()" src="./icons/seta-direita.svg" />
+        </div>
+    </section>
+
+    <script src="scriptMoto.js"></script>
+</body>
+</html>
